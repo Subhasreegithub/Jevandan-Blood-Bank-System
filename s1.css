@@ -1,0 +1,180 @@
+#full {
+  width: 100%;
+  height: auto;
+}
+#inner_full {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+#header {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+div#header h4 {
+  margin: 0;
+}
+#body {
+  width: 100%;
+  height: auto;
+}
+#footer {
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  color: yellow;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+#form {
+  background-color: #f4f9ff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin: 30px auto;
+  width: 95%;
+  overflow-x: auto;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #004085;
+  color: black;
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #e9f0ff;
+}
+
+tr:hover {
+  background-color:green;
+  transition: background-color 0.3s ease;
+}
+
+td {
+  color: #333;
+  font-size: 15px;
+}
+
+
+#login_table {
+  padding: 90px;
+  background: #ff0000;
+  box-shadow: 0 12px 12px rgb(255 0 0 / 49%);
+  border-radius: 10px;
+}
+.form_box {
+  padding: 90px;
+  background: #ff0000;
+  box-shadow: 0 12px 12px rgb(255 0 0 / 49%);
+  border-radius: 10px;
+}
+input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+input.login_btn {
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  background: #d34228;
+  color: #fff;
+  border: 1px solid red;
+}
+input.login_btn:hover {
+  background-color: #ed2b2b;
+  cursor: pointer;
+}
+div#footer h4 {
+  margin: 0;
+  font-family: sans-serif;
+}
+#login_table tr td {
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+#login_form {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  height: 420px;
+}
+div#body h1 {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #ff0000;
+  padding: 10px;
+  border-radius: 10px;
+}
+div#header h4 span {
+  color: yellow;
+  position: absolute;
+  left: 78%;
+}
+ul.items li {
+  position: relative;
+  padding: 60px;
+  margin: 15px;
+  display: flex;
+  width: 20%;
+  height: 50px;
+  float: left;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+ul.items li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/index_baner.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px); 
+  z-index: -1;
+  transform: scale(1.1); 
+}
+
+
+ul.items li a {
+  color: white;
+  font-weight: bold;     
+  font-size: 18px;       
+}
+
+
+div#form2 table tr td {
+  font-family: sans-serif;
+}
