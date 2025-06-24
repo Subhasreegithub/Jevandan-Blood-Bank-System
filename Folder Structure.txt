@@ -1,0 +1,32 @@
+bbms/
+├── css/
+│ └── s1.css
+├── images/
+│ ├── subhasree.png
+│ ├── shekhar.jpeg
+│ ├── riti.jpeg
+│ ├── jitraj.jpeg
+├── superadmin/
+│ ├── chart-data.php
+│ ├── stock-bar-data.php
+│ ├── index.php
+│ ├── logout.php
+│ ├── super-dashboard.php
+│ ├── super-admin.css
+│ └── super-login.php
+├── user/
+│ ├── about.php
+│ ├── donor_registration.php
+│ ├── recipient_registration.php
+│ ├── camp_registration.php
+│ ├── bloodbank_registration.php
+│ ├── contact.php
+├── donor-list.php
+├── recipient-list.php
+├── blood-bank-list.php
+├── blood-camp-list.php
+├── stock-blood-list.php
+├── admin-home.php
+├── index.php
+├── logout.php
+├── connection.php
